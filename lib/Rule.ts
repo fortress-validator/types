@@ -1,7 +1,7 @@
-import RuleArguments from './RuleArguments';
+import RuleFunction from './RuleFunction';
 
-interface Rule {
-  (args?: RuleArguments): (input: unknown) => boolean;
+interface Rule<T = void> {
+  (args: T): RuleFunction;
 }
 
 export default Rule;

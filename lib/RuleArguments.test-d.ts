@@ -3,7 +3,9 @@ import RuleArguments from './RuleArguments';
 
 describe('Definition "RuleArguments"', () => {
   test('should type correctly', () => {
-    const ruleArguments = { values: [] };
+    const ruleArguments = {
+      values: [],
+    };
 
     expectTypeOf(ruleArguments).toMatchTypeOf<RuleArguments>();
   });

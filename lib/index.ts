@@ -4,6 +4,7 @@ import Messages from './Messages';
 import Plugin from './Plugin';
 import Rule from './Rule';
 import RuleArguments from './RuleArguments';
+import RuleFunction from './RuleFunction';
 import Rules from './Rules';
 
 export type {
@@ -13,5 +14,6 @@ export type {
   Plugin,
   Rule,
   RuleArguments,
+  RuleFunction,
   Rules,
 };
