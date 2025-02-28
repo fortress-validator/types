@@ -1,11 +1,11 @@
-import Locales from './Locales';
-import Message from './Message';
-import Messages from './Messages';
-import Plugin from './Plugin';
-import Rule from './Rule';
-import RuleArguments from './RuleArguments';
-import RuleFunction from './RuleFunction';
-import Rules from './Rules';
+import type Locales from './Locales';
+import type Message from './Message';
+import type Messages from './Messages';
+import type Plugin from './Plugin';
+import type Rule from './Rule';
+import type RuleArguments from './RuleArguments';
+import type RuleFunction from './RuleFunction';
+import type Rules from './Rules';
 
 export type {
   Locales,

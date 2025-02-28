@@ -1,5 +1,5 @@
 import { describe, expectTypeOf, test } from 'vitest';
-import Locales from './Locales';
+import type Locales from './Locales';
 
 describe('Definition "Locales"', () => {
   test('should type correctly', () => {

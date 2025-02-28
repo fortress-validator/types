@@ -1,5 +1,5 @@
 import { describe, expectTypeOf, test } from 'vitest';
-import Messages from './Messages';
+import type Messages from './Messages';
 
 describe('Definition "Messages"', () => {
   test('should type correctly', () => {

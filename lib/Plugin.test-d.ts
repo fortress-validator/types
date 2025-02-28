@@ -1,5 +1,5 @@
 import { describe, expectTypeOf, test } from 'vitest';
-import Plugin from './Plugin';
+import type Plugin from './Plugin';
 
 describe('Definition "Plugin"', () => {
   test('should type correctly', () => {

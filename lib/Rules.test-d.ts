@@ -1,5 +1,5 @@
 import { describe, expectTypeOf, test } from 'vitest';
-import Rules from './Rules';
+import type Rules from './Rules';
 
 describe('Definition "Rules"', () => {
   test('should type correctly', () => {

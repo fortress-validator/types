@@ -1,5 +1,5 @@
 import { describe, expectTypeOf, test } from 'vitest';
-import RuleFunction from './RuleFunction';
+import type RuleFunction from './RuleFunction';
 
 describe('Definition "RuleFunction"', () => {
   test('should type correctly', () => {

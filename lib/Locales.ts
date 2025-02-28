@@ -1,4 +1,4 @@
-import Messages from './Messages';
+import type Messages from './Messages';
 
 interface Locales {
   [key: string]: Messages;

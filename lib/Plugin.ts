@@ -1,5 +1,5 @@
-import Locales from './Locales';
-import Rules from './Rules';
+import type Locales from './Locales';
+import type Rules from './Rules';
 
 interface Locale {
   locales: Locales;

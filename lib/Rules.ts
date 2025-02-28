@@ -1,4 +1,4 @@
-import Rule from './Rule';
+import type Rule from './Rule';
 
 interface Rules {
   [key: string]: Rule<unknown>;

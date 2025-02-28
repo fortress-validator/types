@@ -1,4 +1,4 @@
-import RuleArguments from './RuleArguments';
+import type RuleArguments from './RuleArguments';
 
 interface Message {
   (field: string, args?: RuleArguments): string | Record<string, string>;

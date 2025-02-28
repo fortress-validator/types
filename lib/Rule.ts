@@ -1,4 +1,4 @@
-import RuleFunction from './RuleFunction';
+import type RuleFunction from './RuleFunction';
 
 interface Rule<T = void> {
   (args: T): RuleFunction;
